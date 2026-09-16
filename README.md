@@ -1,78 +1,24 @@
-# 🎙️ PeaBox Speech Studio
+# PeaBox Voice Studio v1.0
 
-PeaBox Speech Studio is a local-first AI speech platform designed for creators, educators, consultants, developers and enterprises.
+Fully functional local Python app for offline narration and AI transcription.
 
-Generate natural speech, transcribe audio and video, create subtitles, build audiobooks and connect to enterprise-grade speech services from a single interface.
+## Features
+- Offline TTS using system voices
+- TXT, MD, DOCX and text-PDF import
+- WAV generation, playback and download
+- Upload or microphone transcription
+- Faster-Whisper local inference
+- TXT and SRT exports
+- SQLite job history
 
-## Built For
+## Windows
+Extract the ZIP and double-click `start_windows.bat`. Python 3.10-3.12 is required. The launcher creates an isolated environment and installs dependencies.
 
-- Content Creators
-- Course Authors
-- Trainers
-- HR Professionals
-- Consultants
-- Podcasters
-- Developers
-- Businesses
+## macOS/Linux
+Run `chmod +x start_linux_mac.sh && ./start_linux_mac.sh`. On Ubuntu/Debian, install `espeak-ng libespeak1 ffmpeg`.
 
-## ✨ Key Features
+## Notes
+The first transcription downloads a Whisper model. TTS needs no internet. FFmpeg is recommended for MP3/M4A/video. Data is stored in `data/`; outputs in `outputs/`. This focused release intentionally excludes voice cloning and dubbing to remain reliable on ordinary computers.
 
-### 🎤 Speech Generation
-- Local neural TTS
-- Multiple languages
-- Multiple voice options
-- Adjustable pacing and speaking style
-- Local and cloud-based speech engines
-
-### 📝 Transcription
-- AI-powered speech-to-text
-- Audio file transcription
-- Video file transcription
-- Automatic language detection
-- Timestamp generation
-
-### 📄 Subtitle Generation
-- SRT export
-- Caption generation
-- Video workflow support
-- Timestamp management
-
-### ☁️ Cloud Voice Providers
-- Microsoft Azure Speech
-- Amazon Polly
-- Google Cloud Text-to-Speech
-
-### 📚 Creator Workflows
-- Audiobook production
-- Course narration
-- Podcast preparation
-- Video voiceovers
-- Meeting transcription
-
-### 🔒 Privacy First
-- Local data storage
-- User-controlled API keys
-- No mandatory cloud dependency
-- Local processing options
-
-### 💰 Cost Awareness
-- Character counting
-- Usage estimation
-- Provider comparison
-- Budget visibility
-
-
-## Why PeaBox Speech Studio?
-- Most speech platforms solve only one problem.
-- Some provide speech generation.
-- Some provide transcription.
-- Others require multiple subscriptions and separate dashboards.
-- PeaBox Speech Studio provides a unified experience where users can:
-
-✅ Generate speech
-✅ Transcribe recordings
-✅ Create subtitles
-✅ Compare providers
-✅ Control costs
-✅ Keep their data private
-✅ Choose between local and cloud speech engines
+## Responsible use
+Only process recordings you are authorized to use. Do not create deceptive or impersonating audio.
