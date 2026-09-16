@@ -1,4 +1,4 @@
-# PeaBox Speech Studio
+# PeaBox AI Speech Studio
 
 PeaBox Speech Studio is a local-first Python application for AI speech generation, audio and video transcription, subtitle creation, and optional cloud text-to-speech services.
 
