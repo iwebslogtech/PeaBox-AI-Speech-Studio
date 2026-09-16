@@ -1,2 +1,2 @@
 # PeaBox-Voice-Studio
-A local-first AI voice platform for narration, transcription, audiobooks, subtitles, course creation and voice generation using Kokoro, Faster-Whisper, Azure Speech, Amazon Polly and Google Cloud TTS. Supports both TTS and STT processes.
+PeaBox Speech Studio is a local-first AI speech platform that combines high-quality voice generation, speech transcription, subtitle creation and multi-provider speech services into a single application.
