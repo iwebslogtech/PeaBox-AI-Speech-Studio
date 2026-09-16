@@ -6,7 +6,7 @@ The application combines free local speech models with commercial cloud provider
 
 ## Highlights
 
-- Local neural text-to-speech with Kokoro
+- Local neural text-to-speech with Kokoro (Free of cost TTS speech files generation)
 - Local speech-to-text with Faster-Whisper
 - Microsoft Azure Speech integration
 - Amazon Polly integration
